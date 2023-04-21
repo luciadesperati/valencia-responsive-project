@@ -10,12 +10,14 @@ body {
 
 .grid {
   display: grid;
+  grid-gap: 30px;
   grid-template-columns: 1fr 2fr 2fr;
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 80px;
 }
 
 header {
@@ -125,5 +127,14 @@ footer a {
 
   header h3 {
     font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
   }
 }

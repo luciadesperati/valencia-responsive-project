@@ -9,6 +9,10 @@ body {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-gap: 50px;
@@ -131,7 +135,7 @@ main p {
   margin: 0;
 }
 
-.embed {
+.ig_embed {
   width: 100%;
   aspect-ratio: 1 /1;
 }
